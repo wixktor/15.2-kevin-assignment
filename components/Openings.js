@@ -108,7 +108,7 @@ export default function Openings() {
         </motion.a>
         <motion.a
           variants={item}
-          href="/software-engineer-mobile"
+          href="software-engineer-mobile"
           className="flex w-full flex-col rounded-lg bg-[#e2e8f0] py-6 px-6 lg:flex-row lg:items-center"
         >
           <div className="basis-1/2">
@@ -129,7 +129,7 @@ export default function Openings() {
         </motion.a>
         <motion.a
           variants={item}
-          href="/senior-software-engineer"
+          href="senior-software-engineer"
           className="flex w-full flex-col rounded-lg bg-[#e2e8f0] py-6 px-6 lg:flex-row lg:items-center"
         >
           <div className="basis-1/2">
@@ -150,7 +150,7 @@ export default function Openings() {
         </motion.a>
         <motion.a
           variants={item}
-          href="/senior-software-engineer-web"
+          href="senior-software-engineer-web"
           className="flex w-full flex-col rounded-lg bg-[#e2e8f0] py-6 px-6 lg:flex-row lg:items-center"
         >
           <div className="basis-1/2">

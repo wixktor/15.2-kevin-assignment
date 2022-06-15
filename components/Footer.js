@@ -8,7 +8,7 @@ export default function Footer() {
   const fadeIn = {
     visible: {
       opacity: 1,
-      transition: { delay: 0.4, duration: 0.6, ease: easing },
+      transition: { delay: 0.7, duration: 0.6, ease: easing },
     },
     hidden: { opacity: 0, transition: { duration: 0.6, ease: easing } },
   };
@@ -29,11 +29,11 @@ export default function Footer() {
       className="mx-auto flex max-w-[100rem] flex-col items-center overflow-auto py-8 px-8 pt-4 md:items-center md:justify-between md:px-6 lg:flex-row lg:justify-between lg:px-8"
     >
       <div>
-        <a href="#" className="text-3xl text-[#332854]">
+        <a href="#" className="text-3xl">
           Hotbeans
         </a>
       </div>
-      <div className="lg:text-md my-6 space-x-6 text-sm lg:my-0 lg:space-x-12 text-[#332854]">
+      <div className="lg:text-md my-6 space-x-6 text-sm lg:my-0 lg:space-x-12">
         <a href="#">Terms of service</a>
         <a href="#">Legal Notice</a>
       </div>

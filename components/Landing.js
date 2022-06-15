@@ -22,7 +22,8 @@ export default function Landing() {
       >
         Come join us and make the web better.
       </motion.p>
-      <motion.button
+      <motion.a
+      href="#jobs"
         key="logo"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -42,7 +43,7 @@ export default function Landing() {
             clipRule="evenodd"
           />
         </svg>
-      </motion.button>
+      </motion.a>
     </div>
   );
 }

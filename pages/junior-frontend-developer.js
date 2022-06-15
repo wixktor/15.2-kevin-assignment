@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable @next/next/no-html-link-for-pages */
+import { motion, useAnimation } from "framer-motion";
 import Nav from "../components/Nav";
 
 export default function JFE() {
@@ -7,9 +8,15 @@ export default function JFE() {
     <>
       <div className="landing text-[#332854]">
         <Nav />
-        <div className="mx-auto flex max-w-7xl flex-row items-center py-24 px-4">
+        <motion.div
+          key="logo"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.4, delay: 0.8 }}
+          className="mx-auto flex max-w-7xl flex-row items-center py-24 px-4"
+        >
           <div className="mr-10 md:mr-16 lg:mr-24">
-            <a href="/careers">
+            <a href="/">
               <img src="/svgs/back.svg" alt="Go back" />
             </a>
           </div>
@@ -18,8 +25,14 @@ export default function JFE() {
               Junior Frontend Developer
             </h2>
           </div>
-        </div>
-        <div className="w-full bg-[#f8fafc] py-12 px-3">
+        </motion.div>
+        <motion.div
+          key="logo"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.4, delay: 0.9 }}
+          className="w-full bg-[#f8fafc] py-12 px-3"
+        >
           <div className="mx-auto flex max-w-7xl flex-col">
             <h3 className="max-w-3xl text-2xl">
               We&apos;re putting a team together to build the worlds best
@@ -107,7 +120,7 @@ export default function JFE() {
               </a>
             </form>
           </div>
-        </div>
+        </motion.div>
       </div>
     </>
   );

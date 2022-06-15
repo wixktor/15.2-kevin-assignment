@@ -1,9 +1,11 @@
-import Layout from "../components/contact/Layout"
+import Layout from "../components/contact/Layout";
 
 export default function Contact() {
-    return (
-        <>
+  return (
+    <>
+      <div className="landing text-[#332854]">
         <Layout />
-        </>
-    )
+      </div>
+    </>
+  );
 }

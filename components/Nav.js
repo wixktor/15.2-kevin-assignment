@@ -11,11 +11,11 @@ export default function Nav() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.4, delay: 0.5 }}
-      className="mx-auto flex w-full max-w-7xl flex-col overflow-auto py-6 px-3 lg:flex-row lg:items-center lg:justify-between text-[#332854]
+      className="mx-auto flex w-full max-w-7xl flex-col overflow-auto py-6 px-3 text-[#332854] lg:flex-row lg:items-center lg:justify-between
       "
     >
       <div className="flex flex-row items-center justify-between">
-        <a href="#" className="text-3xl">
+        <a href="/" className="text-3xl">
           Hotbeans
         </a>
         <button
@@ -45,8 +45,11 @@ export default function Nav() {
         <div className="flex-col space-x-12 lg:flex-grow">
           <a href="/">Home</a>
           <a href="/contact">Contact</a>
-          <a href="/careers" className="decoration-2 underline-offset-2">
-            Careers
+          <a
+            href="/"
+            className="rounded-full bg-[#332854] py-2.5 px-8 text-white decoration-2 underline-offset-2"
+          >
+            Login
           </a>
         </div>
       </div>
