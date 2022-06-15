@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import React from "react";
 import { motion } from "framer-motion";
 
@@ -10,7 +11,7 @@ export default function Nav() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.4, delay: 0.5 }}
-      className="mx-auto flex w-full max-w-7xl flex-col overflow-auto py-6 px-3 lg:flex-row lg:items-center lg:justify-between
+      className="mx-auto flex w-full max-w-7xl flex-col overflow-auto py-6 px-3 lg:flex-row lg:items-center lg:justify-between text-[#332854]
       "
     >
       <div className="flex flex-row items-center justify-between">
@@ -42,9 +43,9 @@ export default function Nav() {
       </div>
       <div className={"lg:flex" + (navbarOpen ? " flex" : " hidden")}>
         <div className="flex-col space-x-12 lg:flex-grow">
-          <a href="#">Home</a>
-          <a href="#">Pricing</a>
-          <a href="#" className="underline decoration-2 underline-offset-2">
+          <a href="/">Home</a>
+          <a href="/contact">Contact</a>
+          <a href="/careers" className="decoration-2 underline-offset-2">
             Careers
           </a>
         </div>
