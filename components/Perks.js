@@ -56,7 +56,7 @@ export default function Perks() {
           variants={fadeIn}
           className="text-3xl lg:text-5xl"
         >
-          Perks & benifits
+          Perks & benefits
         </motion.h2>
       </div>
       <motion.div
