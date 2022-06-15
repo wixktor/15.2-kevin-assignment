@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import { motion, useAnimation } from "framer-motion";
 import Nav from "../components/Nav";
 
