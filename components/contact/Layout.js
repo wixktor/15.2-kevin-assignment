@@ -7,7 +7,7 @@ export default function Layout() {
       <Nav />
       <main className="mx-3 flex items-center justify-center px-5 py-12 lg:mx-0 lg:py-20">
         <div className="relative rounded-lg bg-white p-8 shadow-lg sm:p-12">
-          <h3 className="text-center text-3xl mb-6">Contact Us</h3>
+          <h3 className="text-center text-3xl mb-6 text-[#332854]">Contact Us</h3>
           <form className="w-60 lg:w-96">
             <div className="mb-6">
               <input
